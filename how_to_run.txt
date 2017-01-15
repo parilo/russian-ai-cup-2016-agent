@@ -1,0 +1,6 @@
+#MacOS
+DYLD_LIBRARY_PATH=./installdir/lib/:./Tensorflow/bazel-out/local_darwin-fastbuild/bin/tensorflow/:${DYLD_LIBRARY_PATH} ./installdir/bin/WizardTrainer
+#Linux
+LD_LIBRARY_PATH=./installdir/lib/:${LD_LIBRARY_PATH} ./installdir/bin/WizardTrainer
+
+#also available StateReader to convert saved state to .h files

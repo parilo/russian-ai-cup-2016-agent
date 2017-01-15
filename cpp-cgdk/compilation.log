@@ -1,0 +1,39 @@
+In file included from MyStrategy.cpp:17:0:
+SimpleStrategy.h: In member function ‘const model::LivingUnit* SimpleStrategy::getWeakestTarget()’:
+SimpleStrategy.h:402:27: warning: unused variable ‘choosedTarget’ [-Wunused-variable]
+         const LivingUnit* choosedTarget = nullptr;
+                           ^
+MyStrategy.cpp: In member function ‘virtual void MyStrategy::move(const model::Wizard&, const model::World&, const model::Game&, model::Move&)’:
+MyStrategy.cpp:200:20: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+         if (ws[i].isMe ()) {
+                    ^
+MyStrategy.cpp:197:13: warning: unused variable ‘myFaction’ [-Wunused-variable]
+     int myWIndex;
+             ^
+MyStrategy.cpp:205:36: warning: ‘myWIndex’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+In file included from SimpleServer.cpp:9:0:
+SimpleServer.hpp: In constructor ‘WizardTrainer::SimpleServerClientWorker::SimpleServerClientWorker(const WizardTrainer::SimpleServerClientData&, int, int)’:
+SimpleServer.hpp:60:7: warning: ‘WizardTrainer::SimpleServerClientWorker::actionSize’ will be initialized after [-Wreorder]
+   int actionSize;
+       ^
+SimpleServer.hpp:42:26: warning:   ‘WizardTrainer::SimpleServerClientData WizardTrainer::SimpleServerClientWorker::cl’ [-Wreorder]
+   SimpleServerClientData cl;
+                          ^
+SimpleServer.cpp:150:1: warning:   when initialized here [-Wreorder]
+ SimpleServerClientWorker::SimpleServerClientWorker (const SimpleServerClientData& cl, int stateSize, int actionSize) :
+ ^
+csimplesocket/PassiveSocket.cpp: In member function ‘bool CPassiveSocket::BindMulticast(const uint8_t*, const uint8_t*, int16_t)’:
+csimplesocket/PassiveSocket.cpp:57:20: warning: variable ‘nReuse’ set but not used [-Wunused-but-set-variable]
+     int32          nReuse;
+                    ^
+/tmp/ccMkU23L.o: In function `CActiveSocket::ConnectTCP(unsigned char const*, short)':
+ActiveSocket.cpp:(.text+0x61): warning: Using 'gethostbyname' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/tmp/cc5hgMGo.o: In function `WizardTrainer::SimpleClient::connectToServer()':
+SimpleClient.cpp:(.text+0x888): undefined reference to `pthread_create'
+/tmp/cch0NfQ9.o: In function `WizardTrainer::SimpleServerClientWorker::run()':
+SimpleServer.cpp:(.text+0x1316): undefined reference to `pthread_create'
+/tmp/cch0NfQ9.o: In function `WizardTrainer::SimpleServer::start()':
+SimpleServer.cpp:(.text+0x196b): undefined reference to `pthread_create'
+/usr/lib/gcc/x86_64-linux-gnu/5/libstdc++.a(thread.o): In function `std::thread::_M_start_thread(std::shared_ptr<std::thread::_Impl_base>, void (*)())':
+(.text._ZNSt6thread15_M_start_threadESt10shared_ptrINS_10_Impl_baseEEPFvvE+0x5f): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status

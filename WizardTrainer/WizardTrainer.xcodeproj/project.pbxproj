@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A1B10A11DDA3F23002A034E /* BrainAlgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A1B10871DDA3F23002A034E /* BrainAlgorithm.cpp */; };
+		3A1B10A21DDA3F23002A034E /* DDPG.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A1B10891DDA3F23002A034E /* DDPG.cpp */; };
+		3A1B10A31DDA3F23002A034E /* ExperienceBank.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A1B108B1DDA3F23002A034E /* ExperienceBank.cpp */; };
+		3A1B10A41DDA3F23002A034E /* ExperienceBankRemovable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A1B108D1DDA3F23002A034E /* ExperienceBankRemovable.cpp */; };
+		3A1B10A51DDA3F23002A034E /* ExperienceFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A1B108F1DDA3F23002A034E /* ExperienceFilter.cpp */; };
+		3A1B10A61DDA3F23002A034E /* ExperienceItem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A1B10911DDA3F23002A034E /* ExperienceItem.cpp */; };
+		3A1B10A71DDA3F23002A034E /* ExpLambdaFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A1B10931DDA3F23002A034E /* ExpLambdaFilter.cpp */; };
+		3A1B10A81DDA3F23002A034E /* Lib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A1B10951DDA3F23002A034E /* Lib.cpp */; };
+		3A1B10A91DDA3F23002A034E /* Observation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A1B10971DDA3F23002A034E /* Observation.cpp */; };
+		3A1B10AA1DDA3F23002A034E /* ObservationSeqLimited.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A1B10991DDA3F23002A034E /* ObservationSeqLimited.cpp */; };
+		3A1B10AB1DDA3F23002A034E /* Quadrocopter2DBrain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A1B109B1DDA3F23002A034E /* Quadrocopter2DBrain.cpp */; };
+		3A1B10AC1DDA3F23002A034E /* QuadrocopterBrain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A1B109D1DDA3F23002A034E /* QuadrocopterBrain.cpp */; };
+		3A1B10AD1DDA3F23002A034E /* Tensors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A1B109F1DDA3F23002A034E /* Tensors.cpp */; };
+		3A1B10B31DDA41E6002A034E /* BrainDiscreteDeepQ.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A1B10B11DDA41E6002A034E /* BrainDiscreteDeepQ.cpp */; };
+		3A1B10B61DDA426C002A034E /* libtensorflow.so in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A1B10B51DDA426C002A034E /* libtensorflow.so */; };
+		3A238BDA1DD76DB2006311D2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A238BD91DD76DB2006311D2 /* main.cpp */; };
+		3A238BE21DD773DF006311D2 /* SimpleServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A238BE01DD773DE006311D2 /* SimpleServer.cpp */; };
+		3A238BE51DD773EB006311D2 /* SimpleClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A238BE31DD773EB006311D2 /* SimpleClient.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3A238BD41DD76DB2006311D2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3A1B10871DDA3F23002A034E /* BrainAlgorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BrainAlgorithm.cpp; sourceTree = "<group>"; };
+		3A1B10881DDA3F23002A034E /* BrainAlgorithm.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BrainAlgorithm.hpp; sourceTree = "<group>"; };
+		3A1B10891DDA3F23002A034E /* DDPG.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DDPG.cpp; sourceTree = "<group>"; };
+		3A1B108A1DDA3F23002A034E /* DDPG.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DDPG.hpp; sourceTree = "<group>"; };
+		3A1B108B1DDA3F23002A034E /* ExperienceBank.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ExperienceBank.cpp; sourceTree = "<group>"; };
+		3A1B108C1DDA3F23002A034E /* ExperienceBank.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ExperienceBank.hpp; sourceTree = "<group>"; };
+		3A1B108D1DDA3F23002A034E /* ExperienceBankRemovable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ExperienceBankRemovable.cpp; sourceTree = "<group>"; };
+		3A1B108E1DDA3F23002A034E /* ExperienceBankRemovable.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ExperienceBankRemovable.hpp; sourceTree = "<group>"; };
+		3A1B108F1DDA3F23002A034E /* ExperienceFilter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ExperienceFilter.cpp; sourceTree = "<group>"; };
+		3A1B10901DDA3F23002A034E /* ExperienceFilter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ExperienceFilter.hpp; sourceTree = "<group>"; };
+		3A1B10911DDA3F23002A034E /* ExperienceItem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ExperienceItem.cpp; sourceTree = "<group>"; };
+		3A1B10921DDA3F23002A034E /* ExperienceItem.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ExperienceItem.hpp; sourceTree = "<group>"; };
+		3A1B10931DDA3F23002A034E /* ExpLambdaFilter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ExpLambdaFilter.cpp; sourceTree = "<group>"; };
+		3A1B10941DDA3F23002A034E /* ExpLambdaFilter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ExpLambdaFilter.hpp; sourceTree = "<group>"; };
+		3A1B10951DDA3F23002A034E /* Lib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Lib.cpp; sourceTree = "<group>"; };
+		3A1B10961DDA3F23002A034E /* Lib.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Lib.hpp; sourceTree = "<group>"; };
+		3A1B10971DDA3F23002A034E /* Observation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Observation.cpp; sourceTree = "<group>"; };
+		3A1B10981DDA3F23002A034E /* Observation.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Observation.hpp; sourceTree = "<group>"; };
+		3A1B10991DDA3F23002A034E /* ObservationSeqLimited.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ObservationSeqLimited.cpp; sourceTree = "<group>"; };
+		3A1B109A1DDA3F23002A034E /* ObservationSeqLimited.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ObservationSeqLimited.hpp; sourceTree = "<group>"; };
+		3A1B109B1DDA3F23002A034E /* Quadrocopter2DBrain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Quadrocopter2DBrain.cpp; sourceTree = "<group>"; };
+		3A1B109C1DDA3F23002A034E /* Quadrocopter2DBrain.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Quadrocopter2DBrain.hpp; sourceTree = "<group>"; };
+		3A1B109D1DDA3F23002A034E /* QuadrocopterBrain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QuadrocopterBrain.cpp; sourceTree = "<group>"; };
+		3A1B109E1DDA3F23002A034E /* QuadrocopterBrain.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = QuadrocopterBrain.hpp; sourceTree = "<group>"; };
+		3A1B109F1DDA3F23002A034E /* Tensors.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tensors.cpp; sourceTree = "<group>"; };
+		3A1B10A01DDA3F23002A034E /* Tensors.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Tensors.hpp; sourceTree = "<group>"; };
+		3A1B10B11DDA41E6002A034E /* BrainDiscreteDeepQ.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BrainDiscreteDeepQ.cpp; sourceTree = "<group>"; };
+		3A1B10B21DDA41E6002A034E /* BrainDiscreteDeepQ.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BrainDiscreteDeepQ.hpp; sourceTree = "<group>"; };
+		3A1B10B51DDA426C002A034E /* libtensorflow.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libtensorflow.so; path = "../../../../../var/tmp/_bazel_anton/c21f8eea4a35c65df98e8983d5e17ddc/Tensorflow/bazel-out/local_darwin-fastbuild/bin/tensorflow/libtensorflow.so"; sourceTree = "<group>"; };
+		3A238BD61DD76DB2006311D2 /* WizardTrainer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WizardTrainer; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A238BD91DD76DB2006311D2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3A238BE01DD773DE006311D2 /* SimpleServer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleServer.cpp; sourceTree = "<group>"; };
+		3A238BE11DD773DE006311D2 /* SimpleServer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SimpleServer.hpp; sourceTree = "<group>"; };
+		3A238BE31DD773EB006311D2 /* SimpleClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleClient.cpp; sourceTree = "<group>"; };
+		3A238BE41DD773EB006311D2 /* SimpleClient.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SimpleClient.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A238BD31DD76DB2006311D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A1B10B61DDA426C002A034E /* libtensorflow.so in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A1B10B41DDA426C002A034E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A1B10B51DDA426C002A034E /* libtensorflow.so */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A238BCD1DD76DB2006311D2 = {
+			isa = PBXGroup;
+			children = (
+				3A238BD81DD76DB2006311D2 /* WizardTrainer */,
+				3A238BD71DD76DB2006311D2 /* Products */,
+				3A1B10B41DDA426C002A034E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3A238BD71DD76DB2006311D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A238BD61DD76DB2006311D2 /* WizardTrainer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A238BD81DD76DB2006311D2 /* WizardTrainer */ = {
+			isa = PBXGroup;
+			children = (
+				3A1B10B11DDA41E6002A034E /* BrainDiscreteDeepQ.cpp */,
+				3A1B10B21DDA41E6002A034E /* BrainDiscreteDeepQ.hpp */,
+				3A1B10871DDA3F23002A034E /* BrainAlgorithm.cpp */,
+				3A1B10881DDA3F23002A034E /* BrainAlgorithm.hpp */,
+				3A1B10891DDA3F23002A034E /* DDPG.cpp */,
+				3A1B108A1DDA3F23002A034E /* DDPG.hpp */,
+				3A1B108B1DDA3F23002A034E /* ExperienceBank.cpp */,
+				3A1B108C1DDA3F23002A034E /* ExperienceBank.hpp */,
+				3A1B108D1DDA3F23002A034E /* ExperienceBankRemovable.cpp */,
+				3A1B108E1DDA3F23002A034E /* ExperienceBankRemovable.hpp */,
+				3A1B108F1DDA3F23002A034E /* ExperienceFilter.cpp */,
+				3A1B10901DDA3F23002A034E /* ExperienceFilter.hpp */,
+				3A1B10911DDA3F23002A034E /* ExperienceItem.cpp */,
+				3A1B10921DDA3F23002A034E /* ExperienceItem.hpp */,
+				3A1B10931DDA3F23002A034E /* ExpLambdaFilter.cpp */,
+				3A1B10941DDA3F23002A034E /* ExpLambdaFilter.hpp */,
+				3A1B10951DDA3F23002A034E /* Lib.cpp */,
+				3A1B10961DDA3F23002A034E /* Lib.hpp */,
+				3A1B10971DDA3F23002A034E /* Observation.cpp */,
+				3A1B10981DDA3F23002A034E /* Observation.hpp */,
+				3A1B10991DDA3F23002A034E /* ObservationSeqLimited.cpp */,
+				3A1B109A1DDA3F23002A034E /* ObservationSeqLimited.hpp */,
+				3A1B109B1DDA3F23002A034E /* Quadrocopter2DBrain.cpp */,
+				3A1B109C1DDA3F23002A034E /* Quadrocopter2DBrain.hpp */,
+				3A1B109D1DDA3F23002A034E /* QuadrocopterBrain.cpp */,
+				3A1B109E1DDA3F23002A034E /* QuadrocopterBrain.hpp */,
+				3A1B109F1DDA3F23002A034E /* Tensors.cpp */,
+				3A1B10A01DDA3F23002A034E /* Tensors.hpp */,
+				3A238BD91DD76DB2006311D2 /* main.cpp */,
+				3A238BE01DD773DE006311D2 /* SimpleServer.cpp */,
+				3A238BE11DD773DE006311D2 /* SimpleServer.hpp */,
+				3A238BE31DD773EB006311D2 /* SimpleClient.cpp */,
+				3A238BE41DD773EB006311D2 /* SimpleClient.hpp */,
+			);
+			path = WizardTrainer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A238BD51DD76DB2006311D2 /* WizardTrainer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A238BDD1DD76DB2006311D2 /* Build configuration list for PBXNativeTarget "WizardTrainer" */;
+			buildPhases = (
+				3A238BD21DD76DB2006311D2 /* Sources */,
+				3A238BD31DD76DB2006311D2 /* Frameworks */,
+				3A238BD41DD76DB2006311D2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WizardTrainer;
+			productName = WizardTrainer;
+			productReference = 3A238BD61DD76DB2006311D2 /* WizardTrainer */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A238BCE1DD76DB2006311D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = anton;
+				TargetAttributes = {
+					3A238BD51DD76DB2006311D2 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3A238BD11DD76DB2006311D2 /* Build configuration list for PBXProject "WizardTrainer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3A238BCD1DD76DB2006311D2;
+			productRefGroup = 3A238BD71DD76DB2006311D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A238BD51DD76DB2006311D2 /* WizardTrainer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A238BD21DD76DB2006311D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A238BE21DD773DF006311D2 /* SimpleServer.cpp in Sources */,
+				3A1B10B31DDA41E6002A034E /* BrainDiscreteDeepQ.cpp in Sources */,
+				3A1B10A41DDA3F23002A034E /* ExperienceBankRemovable.cpp in Sources */,
+				3A238BE51DD773EB006311D2 /* SimpleClient.cpp in Sources */,
+				3A1B10A51DDA3F23002A034E /* ExperienceFilter.cpp in Sources */,
+				3A1B10A11DDA3F23002A034E /* BrainAlgorithm.cpp in Sources */,
+				3A1B10A31DDA3F23002A034E /* ExperienceBank.cpp in Sources */,
+				3A1B10A61DDA3F23002A034E /* ExperienceItem.cpp in Sources */,
+				3A1B10AB1DDA3F23002A034E /* Quadrocopter2DBrain.cpp in Sources */,
+				3A1B10AC1DDA3F23002A034E /* QuadrocopterBrain.cpp in Sources */,
+				3A238BDA1DD76DB2006311D2 /* main.cpp in Sources */,
+				3A1B10AD1DDA3F23002A034E /* Tensors.cpp in Sources */,
+				3A1B10A91DDA3F23002A034E /* Observation.cpp in Sources */,
+				3A1B10A71DDA3F23002A034E /* ExpLambdaFilter.cpp in Sources */,
+				3A1B10A81DDA3F23002A034E /* Lib.cpp in Sources */,
+				3A1B10AA1DDA3F23002A034E /* ObservationSeqLimited.cpp in Sources */,
+				3A1B10A21DDA3F23002A034E /* DDPG.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3A238BDB1DD76DB2006311D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3A238BDC1DD76DB2006311D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3A238BDE1DD76DB2006311D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"TF_GRAPH_DIR=/Users/anton/devel/RussianAICup/TensorflowGraph/models",
+					"TF_GRAPH_SAVE_DIR=/Users/anton/devel/RussianAICup/TensorflowGraph/states",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../Tensorflow",
+					"$(SRCROOT)/../Tensorflow/bazel-Tensorflow/external/protobuf/src",
+					"$(SRCROOT)/../Tensorflow/protobuf-generated",
+					"$(SRCROOT)/../Tensorflow/bazel-Tensorflow",
+					"$(SRCROOT)/../Tensorflow/bazel-Tensorflow/external/eigen_archive",
+				);
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../installdir/lib";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3A238BDF1DD76DB2006311D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"TF_GRAPH_DIR=/Users/anton/devel/RussianAICup/TensorflowGraph/models",
+					"TF_GRAPH_SAVE_DIR=/Users/anton/devel/RussianAICup/TensorflowGraph/states",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../Tensorflow",
+					"$(SRCROOT)/../Tensorflow/bazel-Tensorflow/external/protobuf/src",
+					"$(SRCROOT)/../Tensorflow/protobuf-generated",
+					"$(SRCROOT)/../Tensorflow/bazel-Tensorflow",
+					"$(SRCROOT)/../Tensorflow/bazel-Tensorflow/external/eigen_archive",
+				);
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../installdir/lib";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A238BD11DD76DB2006311D2 /* Build configuration list for PBXProject "WizardTrainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A238BDB1DD76DB2006311D2 /* Debug */,
+				3A238BDC1DD76DB2006311D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A238BDD1DD76DB2006311D2 /* Build configuration list for PBXNativeTarget "WizardTrainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A238BDE1DD76DB2006311D2 /* Debug */,
+				3A238BDF1DD76DB2006311D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A238BCE1DD76DB2006311D2 /* Project object */;
+}

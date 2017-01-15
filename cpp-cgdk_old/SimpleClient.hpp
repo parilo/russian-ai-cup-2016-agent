@@ -1,0 +1,1 @@
+/home/anton/RussianAICup/WizardTrainer/WizardTrainer/SimpleClient.hpp
